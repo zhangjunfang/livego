@@ -3,8 +3,6 @@ package hls
 import (
 	"errors"
 	"fmt"
-	"github.com/gwuhaolin/livego/av"
-	"github.com/orcaman/concurrent-map"
 	"log"
 	"net"
 	"net/http"
@@ -12,6 +10,9 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/orcaman/concurrent-map"
+	"github.com/zhangjunfang/livego/av"
 )
 
 const (

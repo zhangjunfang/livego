@@ -2,12 +2,14 @@ package core
 
 import (
 	"bytes"
-	"github.com/gwuhaolin/livego/utils/pool"
-	"github.com/stretchr/testify/assert"
 	"io"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/zhangjunfang/livego/utils/pool"
 )
 
+//"github.com/stretchr/testify/assert"
 func TestConnReadNormal(t *testing.T) {
 	at := assert.New(t)
 	data := []byte{

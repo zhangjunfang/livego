@@ -1,9 +1,10 @@
 package ts
 
 import (
-	"github.com/gwuhaolin/livego/av"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+	"github.com/zhangjunfang/livego/av"
 )
 
 type TestWriter struct {

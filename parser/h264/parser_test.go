@@ -3,8 +3,9 @@ package h264
 import (
 	"bytes"
 	"errors"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestH264SeqDemux(t *testing.T) {

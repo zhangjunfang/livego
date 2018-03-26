@@ -1,8 +1,6 @@
 package amf
 
-import (
-	"io"
-)
+import "io"
 
 const (
 	AMF0 = 0x00
